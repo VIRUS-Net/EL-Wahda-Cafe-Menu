@@ -7,11 +7,6 @@
 <style>
   * { box-sizing: border-box; }
   body { margin: 0; padding: 24px 16px 40px; background: #0f1420; color: #f2f2f2; font-family: 'Tahoma', 'Segoe UI', sans-serif; }
-  /* Wraps the title/subtitle too, not just .menu below - on a wide desktop browser (unlike a
-     phone, where there's no extra width to begin with), text-align:center alone still leaves the
-     WHOLE block spanning the full page width, which reads as "stuck to one side" rather than
-     genuinely centered. One shared max-width + margin:auto wrapper is what actually centers
-     everything as a single unit regardless of viewport width. */
   .page { max-width: 480px; margin: 0 auto; }
   .header { display: flex; flex-direction: column; align-items: center; margin-bottom: 24px; }
   .logo { width: 64px; height: 64px; border-radius: 14px; object-fit: cover; margin-bottom: 8px; }
